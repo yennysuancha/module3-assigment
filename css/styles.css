@@ -1,0 +1,57 @@
+
+body{
+ font-size: 16px;
+ color: #000;
+
+}
+
+/**header**/
+#header-nav {
+	background-color: Coral;
+	border-radius: 0;
+	border: 0;
+}
+
+#header-title{
+	float: left;
+}
+
+#collapsable-nav{
+	
+	border-radius: 0;
+	border: 1px;
+	width: 100%;
+	margin top: 10px;
+	margin-left: 4px
+}
+
+.row{
+	background-color: Thistle;
+}
+h2{
+font-weight: bold;
+}
+h3{
+	text-align: center;
+	font-weight: bold;
+
+}
+hr{
+	border-color: black;
+}
+
+@media (min-width: 768px) {
+
+	#collapsable-nav{
+		background-color: none;
+
+	}
+}
+
+@media (max-width: 767px) {
+
+	#collapsable-nav{
+		background-color: MistyRose;
+
+	}
+}
